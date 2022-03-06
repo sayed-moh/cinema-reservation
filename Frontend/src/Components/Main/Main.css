@@ -1,0 +1,132 @@
+/****************************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+#home-page{
+    height: auto;
+    overflow-x: hidden;
+}
+#home-page .quote-box {
+    width: 100%;
+    background-color: #8205C9;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10% 0;
+}
+
+#home-page .quote-1{
+    margin-right: 12.5rem;
+    margin-left: 12.5rem;
+    text-align: center;
+}
+
+#home-page .quote-1-itself {
+    font-family: 'Gloria Hallelujah';
+    font-size: 3.125rem;
+}
+
+#home-page .quote-speaker {
+    font-family: 'Cairo';
+    float: right;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+#home-page .quote-1-img{
+    margin-left: 12.5rem;
+}
+
+#home-page .quote-2{
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+    text-align: center;
+}
+
+#home-page .quote-2-itself {
+    font-family: 'Indie Flower';
+    font-size: 3.75rem;
+}
+
+#home-page .quote-2-img{
+    margin-right: 12.5rem;
+}
+
+#home-page .row {
+    margin: 0;
+}
+
+#home-page .quote-box-2{
+    background-color: rgba(247,247,247,255);
+    color: #8205C9;
+}
+#home-page #image{
+    height: 30%;
+    width: 30%;
+}
+
+@media screen and (max-width: 1350px){
+    #home-page .quote-1-itself {
+        font-size: 2rem;
+    }
+    #home-page .quote-2-itself {
+        font-size: 2.2rem;
+    }
+    #home-page .quote-speaker {
+        font-size: 0.7rem;
+    }
+    #home-page .quote-2, #home-page .quote-1{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    #home-page .quote-2-img {
+        margin-right: 2rem;
+    }
+    #home-page .quote-1-img {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #home-page .quote-1-itself {
+        font-size: 1rem;
+    }
+    #home-page .quote-2-itself {
+        font-size: 1.2rem;
+    }
+    #home-page .quote-speaker {
+        font-size: 0.7rem;
+    }
+    #home-page .quote-2, #home-page .quote-1{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    #home-page .quote-2-img {
+        margin-right: 1rem;
+    }
+    #home-page .quote-1-img {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #home-page .quote-1-itself {
+        font-size: 0.7rem;
+    }
+    #home-page .quote-2-itself {
+        font-size: 0.9rem;
+    }
+    #home-page .quote-speaker {
+        font-size: 0.3rem;
+    }
+    #home-page .quote-2, #home-page .quote-1{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    #home-page .quote-2-img {
+        margin-right: 0.5rem;
+    }
+    #home-page .quote-1-img {
+        margin-left: 0.5rem;
+    }
+}

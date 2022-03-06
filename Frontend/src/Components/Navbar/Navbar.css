@@ -1,0 +1,43 @@
+#navbar #navbar-container{
+    position: sticky;
+    top: 0;
+    height: auto;
+    z-index: 2;
+    height: 4rem;
+    background: black;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.5), 0 4px 12px rgba(0,0,0,.08);
+    padding: 0 13rem 0 4rem;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+#navbar a:hover{
+    text-decoration: none;
+}
+
+#navbar #navbar-left {
+    display: flex;
+    justify-content: left;
+}
+
+#navbar #navbar-left img{
+    max-height: 100%; 
+    padding: 0 2rem;
+}
+
+#navbar #navbar-left .logo,#not-navbar .logo{
+    width: 40%;
+}
+
+#navbar #navbar-left{
+    width: 50%;
+}
+
+#navbar #navbar-right .btn-group .btn{
+   box-shadow: none;
+}
+
+#navbar #navbar-right .user-btns-group .user-btn{
+    width: 9rem;
+}

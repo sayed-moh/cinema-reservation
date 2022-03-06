@@ -1,0 +1,30 @@
+#add-movie, #edit-movie,#view-movies,#movie-seats{
+    min-height: 100%;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+#view-movies .card-img-top{
+    height: 55vh;
+}
+#movie-seats .seat{
+    float:left;
+    /* position: relative; */
+    width: 10%;
+    padding-bottom : 10%; /* = width for a 1:1 aspect ratio */
+    margin:2.5% 5% 2.5% 5%;
+}
+
+#movie-seats .screen{
+    float:left;
+    width: 90%;
+    padding-top: 2.5%;
+    padding-bottom : 2.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#movie-seats .screen-title{
+    font-size: 4rem;
+}
+#movie-seats{
+    min-height:150vh;
+}

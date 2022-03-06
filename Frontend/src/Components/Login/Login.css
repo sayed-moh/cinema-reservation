@@ -1,0 +1,22 @@
+#signup ,#login {
+    min-height: 100%;
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+#signup input,#signup select,#login input {
+    color: white;
+}
+#signup ::placeholder,#login ::placeholder,#signup select:invalid{
+    color: black;
+}
+#signup .form-control,#login .form-control{
+    background-color: transparent;
+}
+#signup .form,#login .form{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#signup select option{
+    background-color: #f53844;
+}
